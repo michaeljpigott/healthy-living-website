@@ -29,7 +29,7 @@ const Home = () => {
       <div class="jumbotron p-3 p-md-5 secondary-statement">
       <h2 class="mb-3">Supporting heading</h2>
       </div>
-      <div class="mt-3">
+      <div id="about" class="mt-3">
         <h2>Why name of product?</h2>
         <ul class="reason">
           <li>Reason one</li>

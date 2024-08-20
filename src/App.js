@@ -18,6 +18,7 @@ function App() {
     <Navigation/>
 <Routes>
 <Route exact path="/" element={<Home />} />
+<Route exact path="/about" element={<Home />} />
 </Routes>
 <FooterComponent/>
    </Router>

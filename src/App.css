@@ -83,4 +83,6 @@ font-weight: bold;
   min-height: 300px;
   color: white;
   padding-top: 20px;
+  max-width: 80%;
+  margin:auto;
 }
