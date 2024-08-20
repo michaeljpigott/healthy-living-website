@@ -2,14 +2,16 @@
 
 import React from "react";
 import images from '../images';
+import { Helmet } from "react-helmet-async";
 
 
 const Home = () => {
 	return (
 		<div class="container">
-
+<Helmet>
         <title>Home</title>
         <meta name="The homepage for the test site." />
+        </Helmet>
 <main>
 <div class="jumbotron p-3 p-md-5 text-white-rounded vision">
   <div class="row">

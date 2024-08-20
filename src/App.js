@@ -1,5 +1,6 @@
 import Navigation from "./components/navbar";
 import FooterComponent from "./components/footer";
+import { HelmetProvider } from "react-helmet-async";
 
 import './App.css';
 import {
@@ -12,6 +13,7 @@ import 'bootstrap'
 
 function App() {
   return (
+    <HelmetProvider>
    <Router>
     <Navigation/>
 <Routes>
@@ -19,6 +21,7 @@ function App() {
 </Routes>
 <FooterComponent/>
    </Router>
+   </HelmetProvider>
   );
 }
 
