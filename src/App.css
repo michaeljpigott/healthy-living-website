@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.container-lg  {
+  max-width: 1400px !important;
+  margin:auto !important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +40,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+.image-container {
+  max-width: 100%;
+}
+
+.constrained-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  color: black;
+
+}
+
+.nav-bar-title {
+  color: green;
+}
+
+.nav-link {
+  margin-right:10px;
+}
+
+.vision {
+  background-color: #e5e5e5;
+}
+
+.secondary-statement {
+background-color: #e09b00;
+color: #FFF;
+font-weight: bold;
+}
+
+.reason {
+  font-size: 1.95rem;
+}
+
+.footer {
+  min-height: 300px;
+  color: white;
+  padding-top: 20px;
 }
