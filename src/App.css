@@ -86,3 +86,21 @@ font-weight: bold;
   max-width: 80%;
   margin:auto;
 }
+
+.navBar {
+  display: flex;
+  align-items:center;
+  position: -webkit-sticky;
+}
+
+.navbar-nav a {
+  color: blue !important;
+  text-decoration: underline !important;
+  margin-right: 10px;
+}
+
+.navbar-nav a:hover {
+  color: black !important;
+  text-decoration: underline !important;
+  margin-right: 10px;
+}

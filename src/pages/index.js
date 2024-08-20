@@ -12,7 +12,7 @@ const Home = () => {
         <title>Home</title>
         <meta name="The homepage for the test site." />
         </Helmet>
-<main>
+<main id="home">
 <div class="jumbotron p-3 p-md-5 text-white-rounded vision">
   <div class="row">
     <div class="col-6">
@@ -38,7 +38,7 @@ const Home = () => {
           <li>Reason four</li>
         </ul>
       </div>
-      <div class="jumbotron p-3 p-md-5 text-white-rounded vision">
+      <div id="buy" class="jumbotron p-3 p-md-5 text-white-rounded vision">
         <div class="row">
           <div class="col-4">Call to action one</div>
           <div class="col-4">Call to action two</div>
