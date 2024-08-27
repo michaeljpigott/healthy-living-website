@@ -53,16 +53,18 @@ const Home = () => {
   </div>
 </div>
 <div class="row customers justify-content-center pt-5 pb-5">
-  <div class="col-5 border-left border-primary testimonial pr-5"><blockquote>"<strong>Since joining HealthyLiving, I feel so much happier and more connected!</strong>" <br />- Hawk, 15 years old</blockquote></div>
+  <div class="col-md-5 testimonial"><blockquote>"<strong>Since joining HealthyLiving, I feel so much happier and more connected!</strong>" <br />- Hawk, 15 years old</blockquote></div>
 
-  <div class="col-2"><h3>Jayden's story</h3>
-  <img class="constrained-image rounded-circle" alt="Jayden" src={images.jayden_img}/>
+  <div class="col-md-2"><h3>Jayden's story</h3>
+  { <img class="constrained-image rounded-circle" alt="Jayden" src={images.jayden_img}/> }
   </div>
-  <div class="col-2"><h3>Dahlia's story</h3>
-  <img class="constrained-image rounded-circle" alt="Dahlia" src={images.dahlia_img}/></div>
+  <div class="col-md-2"><h3>Dahlia's story</h3>
+  {<img class="constrained-image rounded-circle" alt="Dahlia" src={images.dahlia_img}/> }
+  </div>
 
-  <div class="col-2"><h3>Tiffany's story</h3>
-  <img class="constrained-image rounded-circle" alt="Tiffany" src={images.tiffany_img}/></div>
+  <div class="col-md-2"><h3>Tiffany's story</h3>
+  { <img class="constrained-image rounded-circle" alt="Tiffany" src={images.tiffany_img}/> }
+  </div>
 
   </div>
 
