@@ -81,7 +81,7 @@ font-weight: bold;
 
 .footer {
   min-height: 300px;
-  color: white;
+  color: black;
   padding-top: 20px;
   max-width: 80%;
   margin:auto;
@@ -103,4 +103,38 @@ font-weight: bold;
   color: black !important;
   text-decoration: underline !important;
   margin-right: 10px;
+}
+
+.secondary {
+  background-color: #5d675b;
+  color:white;
+}
+
+.primary {
+  background-color: #ABE188;
+}
+p {
+  font-size: 1.2rem;
+}
+
+.benefits {
+  background-color: #FFF;
+}
+
+.benefit-summary {
+  background-color: #F78E69;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.testimonial {
+  font-size: 2.0rem;
+}
+
+.customers {
+  background-color:#e5e5e5;
+}
+
+.customers h3 {
+  padding-bottom: 20px;
 }

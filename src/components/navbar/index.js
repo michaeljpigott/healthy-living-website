@@ -8,7 +8,7 @@ const Navigation = () => {
 	return (
     <Navbar bg="light" expand="lg">
     <Navbar.Brand>
-      <h1 class="nav-bar-title">Name of product</h1>
+      <h1 class="nav-bar-title">HealthyLiving</h1>
     </Navbar.Brand>
 
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -31,7 +31,7 @@ const Navigation = () => {
           spy={true}
           smooth={true}
           duration={500}>
-            Buy
+            Login
           </Link>
           </Nav>
 
